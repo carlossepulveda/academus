@@ -1,0 +1,35 @@
+.contact-us-form {
+	display:flex;align-items:center;height:100%
+}
+.contact-us-form .form-group {
+	margin-bottom: 0.3em!important;
+}
+.contact-us-form .form-group input {
+	font-size: 16px;
+	height: 4em;
+}
+.contact-us-form .btn {
+	height : 3em;
+}
+.contact-us-form-content {
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+	padding:1em;
+	border-radius: 6px;
+}
+.contact-us-form-content hr {
+	padding-bottom:1em;width:100%
+}
+.contact-us-form-content label {
+	color:white;font-size:20px
+}
+.contact-us-form-content form {
+	display:inline-block;padding-top:2em
+}
+.contact-us-form-content form a {
+	padding-top:1em;color:white;text-decoration:underline;font-size: 16px;
+}
+.contact-us-description {
+	color:white;text-align:center;
+}
