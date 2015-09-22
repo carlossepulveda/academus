@@ -1,20 +1,22 @@
 <div class="contact-us-form">
 	<div class="col-md-6 col-md-offset-3 col-xs-12 contact-us-form-content">
-      <h3 class="col-md-12 col-xs-12 contact-us-description" style="">Ingresa los siguientes datos y en breve te contactaremos</h3>
+      <h2 class="col-md-12 col-xs-12 contact-us-description title" style="">Te contactamos</h2>
       <hr style="">
+      <div class="col-md-12" style="padding-bottom:1em">
 	  <label class="col-md-6 col-xs-6 title" style="">
-	    <input type="radio" class="option-input radio" name="example" />
+	    <input type="radio" class="option-input radio" value="student" name="example" ng-model = "type"/>
 	    Estudiante</label>
 	  <label class="col-md-6 col-xs-6 title">
-	    <input type="radio" class="option-input radio" name="example" />
+	    <input type="radio" class="option-input radio" value="teacher" name="example" ng-model = "type"/>
 	    Profesor</label>
+	    </div>
 
-	    <form role="form" style="" class="col-md-12 col-xs-12">
+	    <div role="form" style="" class="col-md-12 col-xs-12">
 		  <div class="form-group">
-		    <input type="email" class="form-control" id="email" placeholder="Ingrese email">
+		    <input type="email" ng-model="email" class="form-control" id="email" placeholder="Ingrese email">
 		  </div>
-		  <a ng-href="/#/" class="pull-left" style="">Regresar</a>
-		  <button type="submit" class="btn btn-primary btn-lg pull-right">Enviar</button>
-		</form>
+		  <a ng-href="/#/" class="pull-left" style="color:white!important;text-decoration:underline">Regresar</a>
+		  <button class="btn btn-primary btn-lg pull-right" ng-click="sendEmail(email, type)">Enviar</button>
+		</div>
 	</div>
 </div>

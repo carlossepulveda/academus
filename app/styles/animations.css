@@ -90,7 +90,7 @@ input:focus {
 }
 .option-input:hover { background: #9faab7; }
 
-.option-input:checked { background: #40e0d0; }
+.option-input:checked { background: #204d74; }
 
 .option-input:checked::before {
   width: 40px;

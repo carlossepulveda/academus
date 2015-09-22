@@ -1,4 +1,3 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 body {
   padding: 0;
 }
@@ -119,7 +118,21 @@ hr {
 }
 .main-sign-up .sign-up-button {
   font-size:22px;
-  border-color: #4e8ed6;
-  background-color: #4e8ed6;
+  border-color: white;
+  background-color: transparent;
 }
-
+.features-box {
+  margin-bottom: 3em;
+}
+.feature-box {
+  color: white;
+  padding-bottom: 1.5em;
+}
+.feature-box h3 {
+  padding-bottom: 0.5em;
+}
+.feature-icon {
+  color: white;
+  padding-right: 0.5em;
+  font-size: 1.5em;
+}
