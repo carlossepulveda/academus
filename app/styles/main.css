@@ -9,6 +9,10 @@ html {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    display: table-row;
+    height: auto;
+    position: relative;
+    min-height: 100%;
 }
 body {
   background-color: transparent;
@@ -59,6 +63,13 @@ body {
   header {
     display: inline-block!important;
     margin-bottom: 1em;
+  }
+  .student-img2 {
+    background-size: 100% auto;
+  }
+  .main-sign-up .sign-up-button {
+    margin-left: 0!important;
+    margin-top: 1em;
   }
 }
 .login-button, .sign-up-button {
